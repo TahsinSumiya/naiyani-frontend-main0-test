@@ -2,8 +2,9 @@ import { useEffect, useState } from "react";
 import TopBar from "../../components/topBar/TopBar";
 import "./DatabaseTable.css";
 import { Link } from "react-router-dom";
-import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css';
+
 import reloadIcon from "../../assets/img/refresh.png";
 
 import { SideBySideMagnifier } from "react-image-magnifiers";
