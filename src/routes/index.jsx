@@ -7,9 +7,6 @@ import Help from "../pages/help/Help";
 import SignUp from "../pages/signUp/SignUp";
 import Terms from "../pages/terms/Terms";
 import Privacy from "../pages/privacy/Privacy";
-import Verify from "../pages/verify/verify";
-// import PrivateRoute from "./PrivateRoute";
-
 import Login from "../pages/loginPage/Login";
 import LandingPage from "../pages/landingPage/LandingPage";
 import Pricing from "../pages/pricing/Pricing";
@@ -20,7 +17,7 @@ import Subscribe from "../pages/pricing/Subscribe";
 import Account from "../pages/pricing/Account";
 import Cancel from "../pages/pricing/Cancel";
 import PrivateRoute from "./PrivateRoute";
-
+import Verify from '../pages/verify/Verify'
 const routes = createBrowserRouter([
   {
     path: "/",
