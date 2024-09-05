@@ -17,7 +17,10 @@ export default defineConfig({
   build: {
     outDir: 'build',
     rollupOptions: {
-      external: ['react-medium-image-zoom'], // Add this line
+      external: [
+        'react-medium-image-zoom',
+        'react-medium-image-zoom/dist/styles.css' // Add this line
+      ],
     },
   },
 });
