@@ -19,7 +19,7 @@ export default defineConfig({
     rollupOptions: {
       external: [
         'react-medium-image-zoom',
-        'react-medium-image-zoom/dist/styles.css' // Add this line
+        'react-medium-image-zoom/dist/styles.css'
       ],
     },
   },
